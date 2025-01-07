@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px; /* 'enchimento' */
+            text-align: left;
+        }
+
+        table caption {
+            caption-side: top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px 0;
+        }
+
+        tfoot td{
+            font-style: italic;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto
+        }
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label>Nome:</label>
+            <input type="text" id="nome"
+            name="nome" placeholder="Seu nome" required>
+        </p>
+        
+        <p>
+            Gênero:<br>
+            <label for="feminino">feminino</label>
+            <input type="radio" id="feminino" name="genero"
+            value="feminino" ><br>
+            <label for="masculino">masculino</label>
+            <input type="radio" id="dev2" name="dev2"
+            value="masculino"><br>
+            <label for="outro_outra">Outro ou Outra</label>
+            <input type="radio" id="outro_outra" name="outro_outra"
+            value="sim"><br>
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+    
+    </form>
+</body>
+
+
+</html>

@@ -1,5 +1,22 @@
-.caixa {
-    background: yellow;
-    height: 120px;
-    width: 120px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    color: red;
+}
+
+body div.main-content h2.outra-coisa{
+    font-style: italic;
+    color: red;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+.pai .filha{
+    color: red;
 }

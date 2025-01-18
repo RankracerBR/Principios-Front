@@ -7,7 +7,7 @@
     color: red;
 }
 
-[meu-atributo] {
+[meu-atributo*="ou out"] {
     color: red;
 }
 

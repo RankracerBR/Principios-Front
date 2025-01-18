@@ -3,20 +3,15 @@
     padding: 0;
 }
 
-.heading {
+.pai .um~.dois {
     color: red;
 }
 
-body div.main-content h2.outra-coisa{
-    font-style: italic;
+[meu-atributo] {
     color: red;
 }
 
-div {
-    color: initial;
-    margin-left: 20px;
-}
-
-.pai .filha{
-    color: red;
+[checked]{
+    width: 50px;
+    height: 50px;
 }

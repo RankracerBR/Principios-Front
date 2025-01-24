@@ -1,0 +1,24 @@
+/* 
+ID Classes, atributos e pseudo-classes Elementos e pseudo-elementos
+1  0                                   0
+0  1                                   0
+1  1                                   0
+
+!important
+*/
+
+body#b.class p#p.p {
+    background: purple !important;
+}
+
+body#b.bclass p#p.p {
+    background: blue !important;
+}
+
+#p.p {
+    background: yellow;
+}
+
+#p .p.outrasclasses{
+    background: yellow;
+}

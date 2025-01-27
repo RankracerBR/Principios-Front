@@ -1,0 +1,10 @@
+#texto {
+    font-family: sans-serif;
+    color: red;
+    font-size: 70px;
+}
+
+p {
+    font-size: initial; /* Desativa a Herança*/
+    color: inherit /* Herda a cor do Pai */
+}

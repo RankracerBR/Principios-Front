@@ -1,14 +1,44 @@
-p { 
-    font-size: 20px;
-    /* font-style: italic;
-    font-weight: bold;
-    direction: ltr;
-    letter-spacing: 1px;
-    word-spacing: 5px;
-    line-height: 25px; */
-    text-align: center;
-    /* text-decoration: underline; */
-    /* text-indent: 50px; */
-    text-shadow: -1px 1px 1px red;
-    text-transform: uppercase;
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    width: 50rem; /* 500px */
+    font-size: 0vw; /* 'vw' view port*/
+    height: 100vh; /* 'vh' view height*/
+    background: yellow;
+    overflow: hidden;
+}
+
+
+.pai > div {
+    width: 50%; /* porcentagem funciona no elemento pai*/
+    height: 50rem;
+    background: blue;
+}
+
+/* p {
+    font-size: 2em; /* 'em' multiplica o tamanho elemento pelo elemento pai
+} */
+
+/* p {
+    font-size: 1.6rem; /* 'rem' relativo ao root do 'html'  
+} */
+
+p {
+    font-size: 2vmax;
+}
+
+.color-one {
+    background: turquoise;
+}
+
+.color-two {
+    background: violet;
 }

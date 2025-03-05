@@ -24,12 +24,8 @@ body{
 
 .grid div:nth-child(5){
     background: darkred;
-    grid-row: span 1;
-    grid-column: span 2;
-}
-
-@media (max-width: 768px){
-    .grid div:nth-child(5){
-        grid-row: span 1;
-    }
+    /* grid-column: span 2; */
+    /* grid-column-start: span 2 / span 2; /* / = termina em */
+    /*grid-row: um / quatro; */
+    /* grid-area: 1 / 1 / 4 / 3; */
 }
